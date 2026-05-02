@@ -1,0 +1,36 @@
+```
+# Dependencies
+node_modules/
+target/
+
+# Build artifacts
+dist/
+build/
+
+# Tauri specific
+**/src-tauri/target/
+**/src-tauri/Cargo.lock
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+```
